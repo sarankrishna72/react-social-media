@@ -1,0 +1,60 @@
+.chat-list-container {
+    border-right: 1px solid  var(--color-ced0d4);
+    border-left: 1px solid  var(--color-ced0d4);
+}
+
+.input-container {
+    background: var(--primary-bg-color);
+}
+
+.search {
+    background: transparent;
+    padding: 9px 6px 9px;
+}
+
+.chat-item-container {
+    &:hover {
+        background: var(--color-f0f2f5);
+    }
+}
+
+.chat-item-container.active {
+    background: var(--color-ecf1fe);
+}
+
+.profile-details-icon {
+    background-color: var(--color-e4e6eb);
+    color: var(--color-050505);
+}
+
+.profile-accordion-item {
+    &:hover {
+        background-color: var(--color-e4e6eb);
+    }
+}
+
+.accordion-icon {
+    font-size: 25px !important;
+}
+
+
+.empty-chat {
+    background: url("https://doot-light.react.themesbrand.com/static/media/pattern-05.ffd181cd.png");
+    transition: all .4s;
+    position: relative;
+    background-image: attr(data-image url);
+}
+
+.empty-icon-container {
+    background-color: rgb(24 119 242 / 60%);
+
+}
+
+.emtpty-chat-icon {
+    font-size: 35px !important;
+    color: var(--color-ffffff);
+}
+
+.themes-header-container {
+    border-bottom: 1px solid rgb(0 0 0 / 10%);
+}

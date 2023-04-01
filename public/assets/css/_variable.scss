@@ -1,0 +1,251 @@
+/* HEXA COLOR START HERE */
+
+$colors: ("495057": #495057,"e4e6eb": #e4e6eb, "f0f2f5": #f0f2f5,"ecf1fe": #ECF1FE,"555555": #555555, "1877f2": #1877f2, "32CD32": #32CD32, "ced0d4": #ced0d4, "65676b": #65676b, "050505": #050505, "f7f9fa": "#f7f9fa","ff0000": #ff0000, "cccccc": #cccccc, "0f6fde": #0f6fde,"06a09b": #06a09b, "f4a85d": #f4a85d, "f25228": #f25228 , "8b8b9d": #8b8b9d, "ebedf1":#ebedf1,"b0c4db": #b0c4db ,"f4f9ff": #f4f9ff, "e8ebf6": #e8ebf6,"444444": #444444,"a2a2a2": #a2a2a2,"909aba": #909aba, "1c256b": #1c256b, "201b56": #201b56, "d5dcef": #d5dcef, "ccd4eb": #ccd4eb, "000000": #000000, "e13b56": #e13b56, "808292": #808292, "eaecf5": #eaecf5, "f0f1f5": #f0f1f5, "d9e1f2": #d9e1f2, "ffffff": #ffffff, "7280ac": #7280ac, "4b507b": #4b507b, "3cc480": #3cc480, "edf1fb": #edf1fb, "f8f9fa": #f8f9fa, "ccd1e3": #ccd1e3, "f5f6fa": #f5f6fa, "9199af": #9199af, "c3cbe2": #c3cbe2, "e4e6f0": #e4e6f0, "e9eaf2": #e9eaf2, "eff0f5": #eff0f5, "717386": #717386, "030303": #030303, "d2d7e3": #d2d7e3, "d8d3f2": #d8d3f2, "3e4aa5": #3e4aa5, "a55e3e": #a55e3e, "a58d3e": #a58d3e, "3ea596": #3ea596, "38453f": #38453f, "147ad6": #147ad6, "4e597c": #4e597c, "d6dceb": #d6dceb, "f2f6f7": #f2f6f7, "080048": #080048, "bfd4d8": #bfd4d8, "9db8bf": #9db8bf, "3e95a5": #3e95a5, "b5badb": #b5badb, "f2f2f2": #f2f2f2, "d7e6f8": #d7e6f8, "263153": #263153, "a0accc": #a0accc, "232e55": #232e55, "acc6e5": #acc6e5, "b6c2e3": #b6c2e3, "d6ede2": #d6ede2, "349f69": #349f69, "de6b7e": #de6b7e, "d3dbed": #d3dbed, "c5cce0": #c5cce0, "f2dce0": #f2dce0, "c4853c": #c4853c, "4caf50": #4CAF50, "2f96b4": #2f96b4, "f89406": #f89406, "bd362f": #bd362f, "999999": #999999, "dedede": #dedede, "2aa1c0": #2aa1c0, "e6e6e6": #e6e6e6, "7b7b7b": #7b7b7b, "aaaaaa": #aaaaaa, "f7e4d1": #f7e4d1, "e27f1d": #e27f1d, "dcdeeb": #dcdeeb, "2a2e48": #2a2e48, "ceebf2": #ceebf2, "438595": #438595, "e50404": #e50404, "808080": #808080, "eff1f5": #eff1f5, "2c4055": #2c4055, "09305d": #09305d, "27ac69": #27ac69, "f5eced": #f5eced, "515a62": #515a62, "f83656": #f83656, "ff8ea1": #ff8ea1, "bcc4d9": #bcc4d9, "de6175": #de6175, "e4e6e9": #e4e6e9, "efefef": #efefef, "e9ebf0": #e9ebf0, "ebf4fe": #ebf4fe, "f7f9fc": #f7f9fc, "57708d": #57708d, "6d849b": #6d849b, "182738": #182738, "1d77e0": #1d77e0, "7590af": #7590af);
+$color-909aba: #909aba;
+$color-1c256b: #1c256b;
+$color-201b56: #201b56;
+$color-d5dcef: #d5dcef;
+$color-ccd4eb: #ccd4eb;
+$color-000000: #000000;
+$color-e13b56: #e13b56;
+$color-808292: #808292;
+$color-eaecf5: #eaecf5;
+$color-f0f1f5: #f0f1f5;
+$color-d9e1f2: #d9e1f2;
+$color-ffffff: #ffffff;
+$color-7280ac: #7280ac;
+$color-4b507b: #4b507b;
+$color-3cc480: #3cc480;
+$color-edf1fb: #edf1fb;
+$color-f8f9fa: #f8f9fa;
+$color-ccd1e3: #ccd1e3;
+$color-f5f6fa: #f5f6fa;
+$color-9199af: #9199af;
+$color-c3cbe2: #c3cbe2;
+$color-e4e6f0: #e4e6f0;
+$color-e9eaf2: #e9eaf2;
+$color-eff0f5: #eff0f5;
+$color-717386: #717386;
+$color-030303: #030303;
+$color-d2d7e3: #d2d7e3;
+$color-d8d3f2: #d8d3f2;
+$color-3e4aa5: #3e4aa5;
+$color-a55e3e: #a55e3e;
+$color-a58d3e: #a58d3e;
+$color-3ea596: #3ea596;
+$color-38453f: #38453f;
+$color-147ad6: #147ad6;
+$color-4e597c: #4e597c;
+$color-d6dceb: #d6dceb;
+$color-f2f6f7: #f2f6f7;
+$color-080048: #080048;
+$color-bfd4d8: #bfd4d8;
+$color-9db8bf: #9db8bf;
+$color-3e95a5: #3e95a5;
+$color-b5badb: #b5badb;
+$color-f2f2f2: #f2f2f2;
+$color-d7e6f8: #d7e6f8;
+$color-263153: #263153;
+$color-a0accc: #a0accc;
+$color-232e55: #232e55;
+$color-acc6e5: #acc6e5;
+$color-b6c2e3: #b6c2e3;
+$color-d6ede2: #d6ede2;
+$color-349f69: #349f69;
+$color-de6b7e: #de6b7e;
+$color-d3dbed: #d3dbed;
+$color-c5cce0: #c5cce0;
+$color-f2dce0: #f2dce0;
+$color-c4853c: #c4853c;
+$color-4caf50: #4CAF50;
+$color-2f96b4: #2f96b4;
+$color-f89406: #f89406;
+$color-bd362f: #bd362f;
+$color-999999: #999999;
+$color-dedede: #dedede;
+$color-2aa1c0: #2aa1c0;
+$color-e6e6e6: #e6e6e6;
+$color-7b7b7b: #7b7b7b;
+$color-aaaaaa: #aaaaaa;
+$color-f7e4d1: #f7e4d1;
+$color-e27f1d: #e27f1d;
+$color-dcdeeb: #dcdeeb;
+$color-2a2e48: #2a2e48;
+$color-ceebf2: #ceebf2;
+$color-438595: #438595;
+$color-e50404: #e50404;
+$color-808080: #808080;
+$color-eff1f5: #eff1f5;
+$color-2c4055: #2c4055;
+$color-7590af: #7590af;
+$color-09305d: #09305d;
+$color-27ac69: #27ac69;
+$color-f5eced: #f5eced;
+$color-515a62: #515a62;
+$color-f83656: #f83656;
+$color-ff8ea1: #ff8ea1;
+$color-bcc4d9: #bcc4d9;
+$color-de6175: #de6175;
+$color-e4e6e9: #e4e6e9;
+$color-efefef: #efefef;
+$color-e9ebf0: #e9ebf0;
+$color-ebf4fe: #ebf4fe;
+$color-f7f9fc: #f7f9fc;
+$color-57708d: #57708d;
+$color-1d77e0: #1d77e0;
+$color-6d849b: #6d849b;
+$color-182738: #182738;
+$color-080048: #080048;
+$color-fffefe: #fffefe;
+/* RGBA COLOR END HERE */
+
+
+/* BOX SHADOW START HERE */
+
+$box-shadow-rgba21408822: 0 2px 4px 0 rgba(21, 40, 88, 0.22);
+$box-shadow-00032400rgba21408822: 0 3px 24px 0 rgba(21, 40, 88, 0.16);
+$box-shadow0003240rgba21408816: 0 3px 24px 0 rgba(21, 40, 88, 0.16);
+$box-shadow-06020600rgb0008p: 6px 2px 6px 0 rgb(0 0 0 / 8%);
+$box-shadow-06020600rgba0008: 6px 2px 6px 0 rgba(0, 0, 0, 0.08);
+$box-shadow-01031200rgba00024: 1px 3px 12px 0 rgba(0, 0, 0, 0.24);
+$box-shadow0240rgba00016: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+$box-shadow1260rgba00024: 1px 2px 6px 0 rgba(0, 0, 0, 0.24);
+$box-shadow1680rgba00016: -1px 6px 8px 0 rgba(0, 0, 0, 0.16);
+
+/* BOX SHADOW END HERE */
+
+.box-shadow0003240rgba21408816 {
+    box-shadow: $box-shadow0003240rgba21408816;
+}
+
+.box-shadow1680rgba00016 {
+    box-shadow: $box-shadow1680rgba00016;
+}
+
+.box-shadow0240rgba00016 {
+    box-shadow: $box-shadow0240rgba00016;
+}
+
+
+/* color and bg generator start here*/
+:root {
+    @each $name,
+    $color in $colors {
+        --color-#{$name}: #{$color};
+    }
+}
+
+
+@each $name,
+$color in $colors {
+    .color-#{$name} {
+        color: #{$color} !important;
+    }
+    .bg-#{$name} {
+        background-color: #{$color} !important;
+    }
+
+    .border-color-#{$name} {
+        border-color: #{$color} !important;
+    }
+}
+
+;
+
+/* color and bg generator end here*/
+
+
+/* colors */
+
+.bg-linear-gradient {
+    background-image: linear-gradient(to bottom, $color-edf1fb, $color-f8f9fa);
+}
+
+.bg-linear-gradient2 {
+    background-image: linear-gradient(to bottom, $color-e4e6f0, $color-e9eaf2 83%, $color-eff0f5)
+}
+
+.bg-linear-table {
+    background-image: linear-gradient(to bottom, rgba(216, 219, 234, 0.4) -76%, rgba(128, 128, 128, 0));
+}
+
+.bg-eff1f5 {
+    background: $color-eff1f5;
+}
+
+.bg-f5f6fa {
+    background: $color-f5f6fa;
+}
+
+.bg-f2f6f7 {
+    background: $color-f2f6f7;
+}
+
+.bg-b5badb {
+    background: $color-b5badb;
+}
+
+.bg-3e4aa5 {
+    background: $color-3e4aa5;
+}
+
+.bg-f2f2f2 {
+    background: $color-f2f2f2;
+}
+
+.bg-d7e6f8 {
+    background: $color-d7e6f8;
+}
+
+.bg-d6ede2 {
+    background: $color-d6ede2;
+}
+
+.bg-d3dbed {
+    background: $color-d3dbed;
+}
+
+.bg-efefef {
+    background: $color-efefef;
+}
+
+.bg-ffffff {
+    background: $color-ffffff;
+}
+
+.bg-e50404 {
+    background: $color-e50404;
+}
+
+.bg-f5eced {
+    background: $color-f5eced;
+}
+
+.bg-ebf4fe {
+    background: $color-ebf4fe;
+}
+
+.bg-d0dcea {
+    background: #d0dcea;
+}
+.bg-080048 {
+    background-color: $color-080048;
+}
+.color-09305d {
+    color: $color-09305d;
+}
+.color-fffefe {
+    color: $color-fffefe;
+}
+
+.color-27ac69 {
+    color: $color-27ac69;
+}
+
+.color-57708d {
+    color: $color-57708d;
+}
+
+.color-e13b56 {
+    color: $color-e13b56;
+}

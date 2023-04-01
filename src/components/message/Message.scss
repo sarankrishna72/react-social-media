@@ -1,0 +1,45 @@
+.chat-header {
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
+.video-call-btn {
+    font-size: 30px !important;
+}
+
+.gif-btn {
+    font-size: 35px !important
+}
+
+.friend-message {
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+    background-color: var(--color-e4e6eb);
+    color: var(--color-050505);
+}
+
+.own-message {
+    color: var(--color-ffffff);
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-right-radius: 18px;
+    background: var(--chat-theme-bgcolor);
+}
+
+[contenteditable=true]:empty:before{
+    content:attr(data-ph);
+    color:var(--color-65676b);
+    cursor: text;
+}
+
+.set-color-theme {
+    background: var(--chat-theme-bgcolor);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+
+
+
+.audio-slider-container {
+    background: rgb(112 112 112 / 30%);
+}

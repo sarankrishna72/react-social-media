@@ -1,0 +1,9 @@
+.theme-item-container {
+    &:hover {
+        background: rgb(0 0 0 / 5%);
+    }
+}
+
+.selected-theme {
+    background: rgb(0 0 0 / 5%);
+}

@@ -1,0 +1,67 @@
+.accordion-label {
+    padding: 10px 15px;
+    // border-bottom: 1px solid var(--color-e4e6eb);
+    &:hover {
+        background: var(--primary-bg-color);
+    }
+}
+
+
+
+.question {
+    position: relative;
+}
+
+.accordion-checkbox {
+    display: none;
+}
+
+.accordion-container ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.accordion-container li {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease-out;
+    font-size: 16px;
+}
+
+
+
+/*Open tab*/
+
+.accordion-checkbox:checked~.accordion-links li {
+    max-height: 500px;
+    opacity: 1;
+    transition: max-height 0.25s ease-in;
+}
+
+/*Style open tab*/
+
+.accordion-checkbox:checked~label .accordion-icon span::after {
+    width: 0;
+}
+
+.accordion-checkbox:checked~label {
+    color: var(--red);
+    border-bottom: 1px solid var(--red);
+}
+
+.accordion-checkbox:checked~label .accordion-icon .accordion-open {
+    display: block;
+}
+
+.accordion-checkbox~label .accordion-icon .accordion-close {
+    display: none;
+}
+
+.accordion-checkbox:checked~label .accordion-icon .accordion-open {
+    display: none;
+}
+
+.accordion-checkbox:checked~label .accordion-icon .accordion-close {
+    display: block;
+}

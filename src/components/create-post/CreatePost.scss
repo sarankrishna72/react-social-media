@@ -1,0 +1,34 @@
+
+.post-option-item-icon {
+    font-size: 22px !important;
+    margin-right: 5px;
+}
+
+.add-photo-icon {
+    font-size: 35px !important;
+}
+
+.edit-photo-icon {
+    font-size: 25px !important;
+}
+
+.post-attachment-action-container{
+    transition: opacity 250ms ease-in-out;
+}
+.post-attachment-main-container:hover{
+    .post-attachment-action-container {
+        // display: block;
+        background: #0000006b;
+        opacity:1 !important;
+    }
+}
+
+input[type=file], /* FF, IE7+, chrome (except button) */
+input[type=file]::-webkit-file-upload-button { /* chromes and blink button */
+    cursor: pointer; 
+}
+
+.close-icon {
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+    
+}

@@ -1,0 +1,16 @@
+@keyframes ani{
+	0%{background-position: 0 0;}
+	100%{background-position: 100vw 0;}
+}
+.waveform-img{
+	background:url("../../../public/assets/images/waveform.png") repeat-x 0 / 100% auto;
+	height:25px; /* this value is not important, just not zero */
+	animation: ani 30s linear infinite ;
+    width: 125px;
+    background-size: contain;
+    border-radius: 5px;
+}
+
+.waveform-animation-unset {
+    animation: none;
+}

@@ -1,0 +1,114 @@
+.form__inputfield {
+    font-size: 1em;
+    outline: none;
+    border: solid 1px var(--color-ccd1e3);
+    border-radius: 5px;
+    padding: 0px 15px;
+    color: var(--color-717386);
+    transition: 0.1s ease-out;
+    font-family: inherit;
+    height: 45px;
+    line-height: 1.14em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.material {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.material label {
+    position: absolute;
+    font-size: 14px;
+    left: 0;
+    top: calc(100% - 23px);
+    transform: translateY(-50%);
+    background-color: #ffffff;
+    color: #717386;
+    padding: 0 0.3rem;
+    margin: 0 0.5rem;
+    transition: 0.1s ease-out;
+    transform-origin: left top;
+    pointer-events: none;
+    font-family: inherit;
+}
+
+.material input,
+.material textarea {
+    font-size: 14px;
+    outline: none;
+    border: solid 1px #ccd1e3;
+    border-radius: 5px;
+    padding: 8px 10px;
+    color: #717386;
+    transition: 0.1s ease-out;
+    font-family: inherit;
+    height: 45px;
+    line-height: 16px;
+}
+
+.material .disabled {
+    background: transparent !important;
+}
+
+.material input:focus,
+.material textarea:focus {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.material input:focus+label,
+.material textarea:focus+label {
+    color: var(--primary-color);
+    top: 0;
+    transform: translateY(-50%) scale(1);
+}
+
+.material input:not(:-moz-placeholder-shown)+label,
+.material textarea:not(:-moz-placeholder-shown)+label {
+    top: 0;
+    transform: translateY(-50%) scale(1);
+}
+
+.material input:not(:-ms-input-placeholder)+label,
+.material textarea:not(:-ms-input-placeholder)+label {
+    top: 0;
+    transform: translateY(-50%) scale(1);
+}
+
+.material input:not(:placeholder-shown)+label,
+.material input:valid+label,
+.material textarea:not(:placeholder-shown)+label,
+.material textarea:valid+label,
+input:-internal-autofill-selected+label {
+    top: 0;
+    transform: translateY(-50%) scale(1);
+}
+
+.material textarea {
+    height: 80px;
+}
+
+.material textarea~label {
+    top: calc(50% - 24px);
+}
+
+.material input[data-input-error="true"],
+.material textarea[data-input-error="true"] {
+    border: solid 1px var(--color-e50404);
+    color: var(--color-e50404);
+}
+
+.material input[data-input-error="true"]+label {
+    color: var(--color-e50404);
+}
+
+.help-block {
+    color: var(--color-e50404);
+    font-family: inherit;
+    display: block;
+    padding: 5px 0px;
+    font-size: .85em;
+}

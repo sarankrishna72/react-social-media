@@ -1,0 +1,117 @@
+@use  '../public/assets/css/index';
+
+:root {
+  --primary-color: #1877F2;
+  --accent-color: #008000;
+  --color-white: #FFFFFF;
+  --primary-bg-color:#f0f2f5;
+}
+
+body {
+  margin: 0;
+  // font-family: 'Roboto', sans-serif;
+  // font-family: 'Circular-Loom';
+  font-family: 'Noto Sans JP', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  padding: 0;
+  background: var(--primary-bg-color);
+}
+
+.bg-primary {
+  background: var(--primary-bg-color);
+}
+
+a {
+  text-decoration: none !important;
+}
+
+div, span, input, li, ul {
+  font-family: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container-height {
+  height: calc(100vh - 50px);
+}
+
+
+.__button {
+  outline: 0;
+  cursor: pointer;
+  min-height: 38px;
+  position: relative;
+  font-family: inherit;
+}
+
+.__button:disabled {
+  pointer-events: none;
+  opacity: .5;
+}
+
+.button__primary {
+  background: var(--primary-color);
+  color: var(--color-white);
+  border: 1px solid var(--primary-color);
+}
+
+.button__primary__outline {
+  background: var(--color-white);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.button__secondary {
+  background: var(--accent-color);
+  color: var(--color-white);
+  border: 1px solid var(--accent-color);
+}
+
+.button__secondary_outline {
+  color: var(--accent-color);
+  background: var(--color-white);
+  border: 1px solid var(--accent-color);
+}
+
+.__button[data-loading = "true"] {
+  opacity: .5;
+  pointer-events: none;
+}
+
+.ripple {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden !important;
+  transform: translate3d(0, 0, 0) !important;
+  &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+      background-image: radial-gradient(circle, var(--color-000000) 10%, transparent 10.01%);
+      background-repeat: no-repeat;
+      background-position: 50%;
+      transform: scale(10, 10);
+      opacity: 0;
+      transition: transform .5s, opacity 1s;
+  }
+  &:active:after {
+      transform: scale(0, 0);
+      opacity: .2;
+      transition: 0s;
+  }
+}
+
+
+
+.primary-border {
+  border: 1px solid  var(--color-ced0d4);
+}
